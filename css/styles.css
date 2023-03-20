@@ -654,10 +654,17 @@ img {
 }
 .logo-under-container {
   text-align: center;
+  margin-bottom: 72px;
 }
 @media (min-width: 768px) {
   .logo-under-container {
     text-align: left;
+  }
+}
+@media (min-width: 1158px) {
+  .logo-under-container {
+    text-align: left;
+    margin-bottom: 0;
   }
 }
 
@@ -709,7 +716,7 @@ img {
   .under-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     flex-direction: row;
     max-width: 1158px;
   }
