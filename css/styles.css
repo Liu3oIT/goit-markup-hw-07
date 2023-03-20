@@ -659,6 +659,7 @@ img {
 .subscribe-container {
   position: relative;
   margin-left: 0;
+  max-width: 398px;
 }
 @media (min-width: 768px) {
   .subscribe-container {
@@ -683,7 +684,7 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 16px;
-  max-width: 396px;
+  width: 284px;
 }
 @media (min-width: 768px) {
   .subscribe-email {
@@ -715,7 +716,6 @@ img {
 @media (min-width: 768px) {
   .subscriber-button {
     margin-left: 24px;
-    width: 165px;
     margin-right: 0;
   }
 }
@@ -739,12 +739,13 @@ img {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
+  max-width: 398px;
 }
 @media (min-width: 768px) {
   .subscribe {
     justify-content: left;
     flex-direction: row;
+    max-width: 453px;
   }
 }
 @media (min-width: 1200px) {
