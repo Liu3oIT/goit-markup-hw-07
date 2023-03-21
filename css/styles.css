@@ -280,7 +280,7 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1158px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 @media screen and (min-device-pixel-ratio: 2),
@@ -679,6 +679,7 @@ img {
 @media (min-width: 768px) {
   .under-info {
     text-align: left;
+    
   }
 }
 .logo-studio-under {
